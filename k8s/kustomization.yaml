@@ -7,5 +7,5 @@ kind: Kustomization
 images:
 - digest: sha256:34df161f44e7f932e23534965a75b92fa1c49c75c1d4b07482a11f7f1ae587fa
   name: quay.io/rhdevelopers/quinoa-wind-turbine
-- digest: sha256:3e05fe4cd6f0056753fa2765e0f81061bf710041347db5b0fc80eb86427a9b49
+- digest: sha256:bf64ba76a35dfa49ee2164b7cedcf3b3828306c5c5fd899264eab3c4da60c0cb
   name: quay.io/sbergste/quinoa-wind-turbine
