@@ -41,6 +41,10 @@ spec:
             secretKeyRef:
               key: password
               name: infinispan-generated-secret
+        - name: QUARKUS_SECURITY_USERS_EMBEDDED_PLAIN_TEXT
+          value: 'true'
+        - name: QUARKUS_SECURITY_USERS_EMBEDDED_USERS_DEVELOPER
+          value: 'password'
         image: quay.io/sbergste/quinoa-wind-turbine:1.0.0
         imagePullPolicy: IfNotPresent
         name: quinoa-wind-turbine
